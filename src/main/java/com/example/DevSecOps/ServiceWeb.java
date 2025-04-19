@@ -20,6 +20,8 @@ public class ServiceWeb {
         Chickens.add(Chicken);
         Chicken = new Chicken("Danny", "C", 3);
         Chickens.add(Chicken);
+        Chicken = new Chicken("Jerry", "D", 7);
+        Chickens.add(Chicken);
     }
 
     @GetMapping("/Chickens/{name}")
